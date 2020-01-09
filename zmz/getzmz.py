@@ -16,7 +16,6 @@ cfg_file = '/zmz_docker/zmz.json'
 db_file = "/zmz_docker/zmz.db"
 init_file = "/zmz_docker/init.txt"
 
-
 def getpath():
     return os.path.split(os.path.realpath(__file__))[0]
 
